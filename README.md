@@ -1,5 +1,7 @@
 # Tom Cruise Face Detection Project
 CNN are a kind of deep neural network which is typically used in deep learning to examine visual imagery. A CNN is a Deep Learning  algorithm that  would take an  image as  input, assign meaning to different parts of the image, and differentiate between them. Because of their high precision, CNNs are used for image  detection and identification. The CNN  uses a hierarchical model that builds a network in the shape of a funnel and then outputs a fully-connected layer where all the neurons are connected to  each other and the data is  stored. Artificial Intelligence  has  made  important  strides  in  bridging  the difference  between  human  and  computer  capabilities. Researchers and enthusiasts alike operate in a number of facets of  the  area  to produce  impressive performance. The  field of computer vision is one of several such fields. The goal of this area is to allow machines to see and understand the environment in the same way that humans do, and to use that information for picture  and  video  identification,  image  interpretation  and labeling,  media recreation,  recommendation  systems,  natural language  processing,  and  other  functions  are  only  a  few examples.
+
+__AIM__ : To classify people in input video feed as Tom Cruise or not. Will capture the input feed using CV2 and send to CNN model to classify in real time. 
 ## Data
 The data used to train the model is availbale here: 
 
@@ -16,3 +18,4 @@ The data has around 600 image of normal people and 100 images of Tom Cruise, to 
 * Dense layer: 50 with relu activation
 * Dense layer: 2 with softmax activation
 * Add the end categorical cross entropy was used to calculate the loss and ADAM optimizer was used to optimize the model.
+
